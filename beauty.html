@@ -1,0 +1,939 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+    <head>        
+        <!-- Required meta tags -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1"/>
+        <meta charset="UTF-8">
+        <!-- Required Title -->
+        <title>Beauty</title>
+        <!--Favicon-->
+        <link href="Earthyellow.ico" rel="icon" type="image/x-icon"/>  
+        <!-- Stylesheets -->
+        <!-- Bootstrap 4 css-->
+        <link href="src/css/bootstrap.css" rel="stylesheet" type="text/css"/>
+        <!-- Bootstrap 4 select css -->
+        <link href="src/css/bootstrap-select.min.css" rel="stylesheet" type="text/css"/>
+        <!-- Font Flaticon css -->
+        <link href="src/css/flaticon.css" rel="stylesheet" type="text/css"/>
+        <!-- OWL Carousel css -->
+        <link href="src/css/owl.carousel.min.css" rel="stylesheet" type="text/css"/>
+        <link href="src/css/owl.theme.default.min.css" rel="stylesheet" type="text/css"/>
+        <!-- jquery-ui css -->
+        <link href="src/css/jquery-ui.css" rel="stylesheet" type="text/css" />
+        <!-- mCustomScrollbar css -->
+        <link href="src/css/jquery.mCustomScrollbar.css" rel="stylesheet" type="text/css" />
+        <!-- Slider Revolution CSS Files -->
+        <link rel="stylesheet" type="text/css" href="src/revolution/css/settings.css">
+        <link rel="stylesheet" type="text/css" href="src/revolution/css/layers.css">
+        <link href="src/revolution/css/revolution.addon.particles.css" rel="stylesheet" type="text/css"/> 
+        <!-- countdownTimer css -->
+        <link href="src/css/jquery.countdownTimer.css" rel="stylesheet" type="text/css"/>
+        <!-- Slick css -->
+        <link href="src/css/slick.css" rel="stylesheet" type="text/css"/>
+        <!-- Comparison css -->
+        <link href="src/css/comparison.css" rel="stylesheet" type="text/css"/>
+        <!-- Earthyellow css -->
+        <link href="src/css/styles.css" rel="stylesheet" type="text/css"/>
+        <!--<link href="src/css/style_a.css" rel="stylesheet" type="text/css"/>-->
+    </head>
+    <body class="beauty_body">
+        <!-- START Scroll Top Button -->
+        <a href="javascript:void(0);" id="back-to-top" class="background-btn back_to_top show">
+            <i class="flaticon-left-arrow"></i>
+        </a>
+        <!-- END Scroll Top Button -->
+        <!-- START Header -->
+        <!-- START Header -->
+        <header class="beauty_header header_type5 d-block p-0 main_header " id="beauty_click_toggle">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="header_logo  p-0">
+                            <a href="beauty.html"><img src="src/images/beauty_logo.png" class="img-fluid" alt="logo" /></a>
+                        </div>
+                    </div>
+                    <div class="col-6 text-right">
+                        <div class="menu_button menu">
+                            <button type="button" data-toggle="collapse" class="navbar-toggler p-0 ">
+                                <img src="src/images/beauty_menu.png">
+                            </button>                      
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header_mobile d-block">
+                <nav class="navbar-dark navbar-expand-lg navbar">                    
+                    <!--Navigation menu container -->
+                    <div class="navbar-collapse collapse">
+                        <div class="navigationbar position-relative h-100">
+                            <div class="close_icon">
+                                <a class="menu_colse float-right" href="javascript:void(0);">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"    enable-background="new 0 0 100 100" id="Layer_1" version="1.1" viewBox="0 0 100 100" xml:space="preserve" ><polygon fill="#faf1f1" points="77.6,21.1 49.6,49.2 21.5,21.1 19.6,23 47.6,51.1 19.6,79.2 21.5,81.1 49.6,53 77.6,81.1 79.6,79.2   51.5,51.1 79.6,23 "/></svg>
+                                </a>
+                            </div>
+                            <ul class="navbar-nav">
+                                <li class="nav-item active">
+                                    <a class="nav-link text-uppercase" href="beauty.html">Home </a>
+                                </li>
+                                <li class="nav-item dropdown mega-dropdown">
+                                    <a class="nav-link text-uppercase dropdown-toggle" href="product_list_with_sidebar.html">Shop</a>
+                                    <span class="menu_arrow flaticon-down-arrow-1"></span>                         
+                                    <ul class="dropdown-menu megamenu_mobile">
+                                        <li class="w-100 nav-item dropdown mega-dropdown">
+                                            <a href="javascript:void(0);" class="nav-link">products</a>
+                                            <span class="menu_arrow flaticon-down-arrow-1"></span>
+                                            <ul class="dropdown-menu megamenu_mobile">
+                                                <li class="w-100"><a href="javascript:void(0);">Men</a></li>
+                                                <li class="w-100"><a href="javascript:void(0);">Women</a></li>
+                                                <li class="w-100"><a href="javascript:void(0);">Accessories</a></li>          
+                                            </ul>
+                                        </li>
+                                        <li class="w-100 nav-item dropdown mega-dropdown">
+                                            <a href="javascript:void(0);" class="nav-link">Category-1</a>
+                                            <span class="menu_arrow flaticon-down-arrow-1"></span> 
+                                            <ul class="dropdown-menu megamenu_mobile">
+                                                <li class="w-100"><a href="javascript:void(0);">Dresses</a></li>
+                                                <li class="w-100"><a href="javascript:void(0);">Skirts</a></li>                 
+                                                <li class="w-100"><a href="javascript:void(0);">shirts</a></li>
+                                                <li class="w-100"><a href="javascript:void(0);">jeans</a></li>
+                                                <li class="w-100"><a href="javascript:void(0);">sweaters</a></li>
+                                                <li class="w-100"><a href="javascript:void(0);">sweatshirts</a></li>
+                                                <li class="w-100"><a href="javascript:void(0);">pants short</a></li>
+                                                <li class="w-100"><a href="javascript:void(0);">cords</a></li>
+                                                <li class="w-100"><a href="javascript:void(0);">tracks & joggers</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="w-100 nav-item dropdown mega-dropdown">
+                                            <a href="javascript:void(0);" class="nav-link">category-2</a>
+                                            <span class="menu_arrow flaticon-down-arrow-1"></span> 
+                                            <ul class="dropdown-menu megamenu_mobile">
+                                                <li class="w-100"><a href="javascript:void(0);">winter wear</a></li>
+                                                <li class="w-100"><a href="javascript:void(0);">summer specials</a></li>
+                                                <li class="w-100"><a href="javascript:void(0);">inner wears</a></li>
+                                                <li class="w-100"><a href="javascript:void(0);">tops</a></li>       
+                                                <li class="w-100"><a href="javascript:void(0);">jackets</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>                                   
+                                </li>
+                                <li class="nav-item dropdown mega-dropdown">
+                                    <a class="nav-link text-uppercase" href="grids_blog_list.html">Blog</a>
+                                    <span class="menu_arrow flaticon-down-arrow-1"></span>
+                                    <ul class="dropdown-menu mega-dropdown-menu">                                    
+                                        <li class="w-100"><a href="grid_blog_list_with_sidebar.html">1 grid blog list with sidebar </a></li>
+                                        <li class="w-100"><a href="grids_blog_list.html">2 grids blog list</a></li>                                     
+                                    </ul>
+                                </li>                           
+                                <li class="nav-item dropdown mega-dropdown">
+                                    <a class="nav-link text-uppercase  dropdown-toggle" href="javascript:void(0);">Other Pages</a>
+                                    <span class="menu_arrow flaticon-down-arrow-1"></span> 
+                                    <ul class="dropdown-menu mega-dropdown-menu">
+                                        <li class="w-100"><a href="index.html">Mega menu full screen</a></li>
+                                        <li class="w-100"><a href="categories_menu.html">Categories menu</a></li>
+                                        <li class="w-100"><a href="menu_with_sale_section.html">Menu with sale section</a></li>
+                                        <li class="w-100"><a href="collection_list.html">Collection list</a></li>
+                                        <li class="w-100"><a href="product_list_with_filter.html">Product list with filter</a></li>
+                                        <li class="w-100"><a href="product_list_with_sidebar.html">Product list with sidebar</a></li>
+                                        <li class="w-100"><a href="lookbook.html">Lookbook</a></li>                                     
+                                        <li class="w-100"><a href="coming_soon.html">Coming soon page</a></li>
+                                        <li class="w-100"><a href="my_account.html">My account</a></li>
+                                        <li class="w-100 "><a href="404.html">404 page</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-uppercase" href="javascript:void(0);">sale</a>
+                                </li>
+                                <li class="dropdown-divider"></li>
+                                <li class="nav-item dropdown mega-dropdown">
+                                    <a class="nav-link text-uppercase  dropdown-toggle" href="javascript:void(0);"><img alt="" src="src/images/eng_flag.png">ENG</a>
+                                    <span class="menu_arrow flaticon-down-arrow-1"></span> 
+                                    <ul class="dropdown-menu mega-dropdown-menu">
+                                        <li class="w-100"><a href="index.html"><img alt="" src="src/images/eng_flag.png">Eng</a></li>
+                                        <li class="w-100"><a href="categories_menu.html"><img alt="" src="src/images/spain_flag.png">Spa</a></li>                                   
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown mega-dropdown">
+                                    <a class="nav-link text-uppercase  dropdown-toggle" href="javascript:void(0);">usd</a>
+                                    <span class="menu_arrow flaticon-down-arrow-1"></span> 
+                                    <ul class="dropdown-menu mega-dropdown-menu">
+                                        <li class="w-100"><a class="text-uppercase" href="index.html">usd</a></li>
+                                        <li class="w-100"><a class="text-uppercase" href="categories_menu.html">eur</a></li>                                   
+                                    </ul>
+                                </li>
+                            </ul>
+                            <div class="socialicons position-absolute">
+                                <ul class="social_icons text-left">
+                                    <!-- Social links -->
+                                    <li class="login_icon">
+                                        <a href="login.html"><i class="flaticon-social"></i></a>
+                                    </li>
+                                    <li class="wishlist_icon">
+                                        <a href="wishlist.html"><i class="flaticon-heart"></i></a>
+                                    </li>
+                                    <li class="search_icon">
+                                        <a href="javascript:void(0);"><i class="flaticon-magnifying-glass"></i></a>
+                                        <div class="search_form">
+                                            <form>
+                                                <input type="text"  placeholder="search" class="text-capitalize" />
+                                                <button type="submit" class="vertical_middle"><i class="flaticon-magnifying-glass"></i></button>
+                                            </form>
+                                        </div>
+                                    </li>
+                                    <li class="cart_icon">
+                                        <a href="cart.html">
+                                            <i class="flaticon-shopping-bag"></i>
+                                            <span class="count text-white rounded-circle text-center">0 </span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>    
+                        </div>
+                        <!-- Navigation links -->
+                    </div>
+                </nav>               
+            </div>
+        </header>
+        <!-- END Header -->
+        <div class="main_section">
+            <!-- START Banner Section -->
+            <div class="beauty_banner_slider_section position-relative">
+                <div class="rev_slider_wrapper fullwidthbanner-container">
+                    <!-- the ID here will be used in the JavaScript below to initialize the slider -->
+                    <div id="beauty_rev_slider_2" class="rev_slider fullwidthabanner" data-version="5.4.5" style="display:none;">
+                        <!-- BEGIN MAIN SLIDE LIST -->
+                        <ul>
+                            <!-- MINIMUM SLIDE STRUCTURE -->
+                            <li data-transition="fade">
+                                <!-- SLIDE'S MAIN BACKGROUND IMAGE -->
+                                <img src="src/images/beauty_banner_bg.png" alt="Sky" class="rev-slidebg img-fluid">
+                                <!-- LAYER NR. 1 -->
+                                <div class="">
+                                    <div class="tp-caption Restaurant-Display tp-resizeme"
+                                         id="slide-3010-layer-1"
+                                         data-x="['middle','middle','middle','middle']" data-hoffset="['0','0','0','0']"
+                                         data-y="['top','middle','middle','middle']" data-voffset="['418','0','0','0']"
+                                         data-type="text"
+                                         data-responsive_offset="on"
+                                         data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":500,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"opacity:0;","ease":"nothing"}]'
+                                         data-textAlign="['left','left','left','left']"
+                                         data-paddingtop="[0,0,0,0]"
+                                         data-paddingright="[0,0,0,0]"
+                                         data-paddingbottom="[0,0,0,0]"
+                                         data-paddingleft="[0,0,0,0]"
+                                         style="z-index: 5;font-size:72px;line-height: 71.4px;color:#faf1f1;text-transform: uppercase;font-family: 'Lora-Regular';font-weight: 400;">Upto 50% off</div>
+                                    <!-- LAYER NR. 2 -->
+                                    <div class="tp-caption Restaurant-Cursive tp-resizeme"
+                                         id="slide-3010-layer-2"
+                                         data-x="['middle','middle','middle','middle']" data-hoffset="['0','0','0','0']"
+                                         data-y="['top','middle','middle','middle']" data-voffset="['494','0','0','0']"
+                                         data-type="text"
+                                         data-responsive_offset="on"
+                                         data-frames='[{"from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":700,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"opacity:0;","ease":"nothing"}]'
+                                         data-textAlign="['left','left','left','left']"
+                                         data-paddingtop="[0,0,0,0]"
+                                         data-paddingright="[0,0,0,0]"
+                                         data-paddingbottom="[0,0,0,0]"
+                                         data-paddingleft="[0,0,0,0]"
+                                         style="z-index: 6;font-size:36px;line-height:53.28px;color:#faf1f1;font-family: 'Ubuntu-Light';font-weight: 300;letter-spacing: 0;">on Makeup Collection</div>
+                                    <!-- LAYER NR. 3 -->
+                                    <div class="tp-caption Restaurant-Cursive tp-resizeme"
+                                         id="slide-3010-layer-3"
+                                         data-x="['middle','middle','middle','middle']" data-hoffset="['0','0','0','0']"
+                                         data-y="['top','middle','middle','middle']" data-voffset="['568px','0','0','0']"
+                                         data-type="text"
+                                         data-responsive_offset="off"
+                                         data-frames='[{"from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":700,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"opacity:0;","ease":"nothing"}]'
+                                         data-textAlign="['left','left','left','left']"
+                                         data-paddingtop="[0,0,0,0]"
+                                         data-paddingright="[0,0,0,0]"
+                                         data-paddingbottom="[0,0,0,0]"
+                                         data-paddingleft="[0,0,0,0]"
+                                         style="z-index:7;font-size:18px;line-height:20.72px;color:#faf1f1;font-family: 'UbuntuRegular';letter-spacing: 0;">
+                                        <a href="product_list_with_sidebar.html" class="text-uppercase" >shop now</a>
+                                    </div>
+                                </div>
+                            </li>       
+                            <li data-transition="fade">
+                                <!--SLIDE'S MAIN BACKGROUND IMAGE--> 
+                                <img src="src/images/beauty_banner_bg.png" alt="Sky" class="rev-slidebg img-fluid">
+                                <!--LAYER NR. 1--> 
+                                <div class="">
+                                    <div class="tp-caption Restaurant-Display tp-resizeme"
+                                         id="slide-3010-layer-1"
+                                         data-x="['middle','middle','middle','middle']" data-hoffset="['0','0','0','0']"
+                                         data-y="['top','middle','middle','middle']" data-voffset="['418','0','0','0']"
+                                         data-type="text"
+                                         data-responsive_offset="on"
+                                         data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":500,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"opacity:0;","ease":"nothing"}]'
+                                         data-textAlign="['left','left','left','left']"
+                                         data-paddingtop="[0,0,0,0]"
+                                         data-paddingright="[0,0,0,0]"
+                                         data-paddingbottom="[0,0,0,0]"
+                                         data-paddingleft="[0,0,0,0]"
+                                         style="z-index: 5;font-size:72px;line-height: 71.4px;color:#faf1f1;text-transform: uppercase;font-family: 'Lora-Regular';font-weight: 400;">Upto 50% off</div>
+                                    <!--LAYER NR. 2--> 
+                                    <div class="tp-caption Restaurant-Cursive tp-resizeme"
+                                         id="slide-3010-layer-2"
+                                         data-x="['middle','middle','middle','middle']" data-hoffset="['0','0','0','0']"
+                                         data-y="['top','middle','middle','middle']" data-voffset="['494','0','0','0']"
+                                         data-type="text"
+                                         data-responsive_offset="on"
+                                         data-frames='[{"from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":700,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"opacity:0;","ease":"nothing"}]'
+                                         data-textAlign="['left','left','left','left']"
+                                         data-paddingtop="[0,0,0,0]"
+                                         data-paddingright="[0,0,0,0]"
+                                         data-paddingbottom="[0,0,0,0]"
+                                         data-paddingleft="[0,0,0,0]"
+                                         style="z-index: 6;font-size:36px;line-height:53.28px;color:#faf1f1;font-family: 'Ubuntu-Light';font-weight: 300;letter-spacing: 0;">on Makeup Collection</div>
+                                    <!--LAYER NR. 3--> 
+                                    <div class="tp-caption Restaurant-Cursive tp-resizeme"
+                                         id="slide-3010-layer-3"
+                                         data-x="['middle','middle','middle','middle']" data-hoffset="['0','0','0','0']"
+                                         data-y="['top','middle','middle','middle']" data-voffset="['568px','0','0','0']"
+                                         data-type="text"
+                                         data-responsive_offset="off"
+                                         data-frames='[{"from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":700,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"opacity:0;","ease":"nothing"}]'
+                                         data-textAlign="['left','left','left','left']"
+                                         data-paddingtop="[0,0,0,0]"
+                                         data-paddingright="[0,0,0,0]"
+                                         data-paddingbottom="[0,0,0,0]"
+                                         data-paddingleft="[0,0,0,0]"
+                                         style="z-index:7;font-size:18px;line-height:20.72px;color:#faf1f1;font-family: 'UbuntuRegular';letter-spacing: 0;">
+                                        <a href="product_list_with_sidebar.html" class="text-uppercase" >shop now</a>
+                                    </div>
+                                </div>
+                            </li> 
+                        </ul>
+                        <!-- END MAIN SLIDE LIST -->
+                    </div>
+                </div>
+            </div>
+            <!-- END Banner Section -->
+            <!-- START Offer Section -->
+            <section class="beauty_offer_section mt-100">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-5 collection_1">
+                            <div class="img_div">
+                                <img src="src/images/beauty_offer1.png" class="img-fluid" alt="offer_image"/>
+                            </div>                            
+                            <div class="text-sm-left text-center">
+                                <h4 class="title_h4">Brush Collection</h4>
+                                <h2 class="title_h2 text-uppercase">Upto 30% off</h2>
+                            </div>                        
+                        </div>
+                        <div class="col-sm-7 collection_2">
+                            <div class="img_div">
+                                <img src="src/images/beauty_offer2.png" class="img-fluid" alt="offer_image"/>
+                            </div>                            
+                            <div class="text-sm-left text-center">
+                                <h4 class="title_h4">Bronzer &amp; Blusher Brush</h4>
+                                <h2 class="title_h2 text-uppercase">Flat 15% off</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- END Offer Section -->
+            <!-- START Trending Product Section -->
+            <section class="beauty_trending_product_section">
+                <div class="container-fluid">                    
+                    <div class="row flex-container">
+                        <div class="col-xl-7 p-0 custom_slider_section order-xl-1 order-3"> 
+                            <h3 class="d_active tab_drawer_heading d-md-none" rel="tab1"><span> Features </span></h3>
+                            <div id="tab1" class="tab_content active_content">
+                                <div class="owl-carousel beauty_trending_slider">                               
+                                    <div class="slider_content text-center item">
+                                        <div class="slider_img">
+                                            <img src="src/images/beauty_slider2.png" class="img-fluid vertical_middle m-auto" alt=""/>
+                                        </div>
+                                        <div class="slider_text">
+                                            <h5 class="title_h5">Gel Eyeliner with Brush</h5>
+                                            <p><span>$150.95</span>$120.95</p>
+                                        </div>
+                                    </div>  
+                                    <div class="slider_content text-center item">
+                                        <div class="slider_img">
+                                            <img src="src/images/beauty_slider3.png" class="img-fluid vertical_middle m-auto" alt=""/>
+                                        </div>
+                                        <div class="slider_text">
+                                            <h5 class="title_h5">Labial Líquido Velvet Matte Lipstick</h5>
+                                            <p>$170.00</p>
+                                        </div>
+                                        <span class="sale_tag">SALE</span>
+                                    </div>                        
+                                    <div class="slider_content text-center item">
+                                        <div class="slider_img">
+                                            <img src="src/images/beauty_slider4.png" class="img-fluid vertical_middle m-auto" alt=""/>
+                                        </div>
+                                        <div class="slider_text">
+                                            <h5 class="title_h5">Compact Bronzing Powder</h5>
+                                            <p><span>$250.00</span>$220.00</p>
+                                        </div>
+                                    </div>                        
+                                    <div class="slider_content text-center item">
+                                        <div class="slider_img">
+                                            <img src="src/images/beauty_slider1.png" class="img-fluid vertical_middle m-auto" alt=""/>
+                                        </div>
+                                        <div class="slider_text">
+                                            <h5 class="title_h5">Velvet Finish Light Compact Powder</h5>
+                                            <p>$170.00</p>
+                                        </div>
+                                        <span class="sale_tag">SALE</span>
+                                    </div>   
+                                    <div class="slider_content text-center item">
+                                        <div class="slider_img">
+                                            <img src="src/images/beauty_slider2.png" class="img-fluid vertical_middle m-auto" alt=""/>
+                                        </div>
+                                        <div class="slider_text">
+                                            <h5 class="title_h5">Gel Eyeliner with Brush</h5>
+                                            <p><span>$150.95</span>$120.95</p>
+                                        </div>
+                                    </div>  
+                                    <div class="slider_content text-center item">
+                                        <div class="slider_img">
+                                            <img src="src/images/beauty_slider3.png" class="img-fluid vertical_middle m-auto" alt=""/>
+                                        </div>
+                                        <div class="slider_text">
+                                            <h5 class="title_h5">Labial Líquido Velvet Matte Lipstick</h5>
+                                            <p>$170.00</p>
+                                        </div>
+                                        <span class="sale_tag">SALE</span>
+                                    </div>                        
+                                    <div class="slider_content text-center item">
+                                        <div class="slider_img">
+                                            <img src="src/images/beauty_slider4.png" class="img-fluid vertical_middle m-auto" alt=""/>
+                                        </div>
+                                        <div class="slider_text">
+                                            <h5 class="title_h5">Compact Bronzing Powder</h5>
+                                            <p><span>$250.00</span>$220.00</p>
+                                        </div>
+                                    </div>                        
+                                    <div class="slider_content text-center item">
+                                        <div class="slider_img">
+                                            <img src="src/images/beauty_slider1.png" class="img-fluid vertical_middle m-auto" alt=""/>
+                                        </div>
+                                        <div class="slider_text">
+                                            <h5 class="title_h5">Velvet Finish Light Compact Powder</h5>
+                                            <p>$170.00</p>
+                                        </div>
+                                        <span class="sale_tag">SALE</span>
+                                    </div>   
+                                    <div class="slider_content text-center item">
+                                        <div class="slider_img">
+                                            <img src="src/images/beauty_slider2.png" class="img-fluid vertical_middle m-auto" alt=""/>
+                                        </div>
+                                        <div class="slider_text">
+                                            <h5 class="title_h5">Gel Eyeliner with Brush</h5>
+                                            <p><span>$150.95</span>$120.95</p>
+                                        </div>
+                                    </div>  
+                                    <div class="slider_content text-center item">
+                                        <div class="slider_img">
+                                            <img src="src/images/beauty_slider3.png" class="img-fluid vertical_middle m-auto" alt=""/>
+                                        </div>
+                                        <div class="slider_text">
+                                            <h5 class="title_h5">Labial Líquido Velvet Matte Lipstick</h5>
+                                            <p>$170.00</p>
+                                        </div>
+                                        <span class="sale_tag">SALE</span>
+                                    </div>                        
+                                    <div class="slider_content text-center item">
+                                        <div class="slider_img">
+                                            <img src="src/images/beauty_slider4.png" class="img-fluid vertical_middle m-auto" alt=""/>
+                                        </div>
+                                        <div class="slider_text">
+                                            <h5 class="title_h5">Compact Bronzing Powder</h5>
+                                            <p><span>$250.00</span>$220.00</p>
+                                        </div>
+                                    </div>                        
+                                    <div class="slider_content text-center item">
+                                        <div class="slider_img">
+                                            <img src="src/images/beauty_slider1.png" class="img-fluid vertical_middle m-auto" alt=""/>
+                                        </div>
+                                        <div class="slider_text">
+                                            <h5 class="title_h5">Velvet Finish Light Compact Powder</h5>
+                                            <p>$170.00</p>
+                                        </div>
+                                        <span class="sale_tag">SALE</span>
+                                    </div>   
+                                </div>                                
+                            </div>
+                            <h3 class="tab_drawer_heading d-md-none" rel="tab2"><span> Latest </span> </h3>
+                            <div id="tab2" class="tab_content">
+                                <div class="owl-carousel beauty_trending_slider">                               
+                                    <div class="slider_content text-center item">
+                                        <div class="slider_img">
+                                            <img src="src/images/beauty_slider2.png" class="img-fluid vertical_middle m-auto" alt=""/>
+                                        </div>
+                                        <div class="slider_text">
+                                            <h5 class="title_h5">Gel Eyeliner with Brush</h5>
+                                            <p><span>$150.95</span>$120.95</p>
+                                        </div>
+                                    </div>  
+                                    <div class="slider_content text-center item">
+                                        <div class="slider_img">
+                                            <img src="src/images/beauty_slider3.png" class="img-fluid vertical_middle m-auto" alt=""/>
+                                        </div>
+                                        <div class="slider_text">
+                                            <h5 class="title_h5">Labial Líquido Velvet Matte Lipstick</h5>
+                                            <p>$170.00</p>
+                                        </div>
+                                        <span class="sale_tag">SALE</span>
+                                    </div>                        
+                                    <div class="slider_content text-center item">
+                                        <div class="slider_img">
+                                            <img src="src/images/beauty_slider4.png" class="img-fluid vertical_middle m-auto" alt=""/>
+                                        </div>
+                                        <div class="slider_text">
+                                            <h5 class="title_h5">Compact Bronzing Powder</h5>
+                                            <p><span>$250.00</span>$220.00</p>
+                                        </div>
+                                    </div>                        
+                                    <div class="slider_content text-center item">
+                                        <div class="slider_img">
+                                            <img src="src/images/beauty_slider1.png" class="img-fluid vertical_middle m-auto" alt=""/>
+                                        </div>
+                                        <div class="slider_text">
+                                            <h5 class="title_h5">Velvet Finish Light Compact Powder</h5>
+                                            <p>$170.00</p>
+                                        </div>
+                                        <span class="sale_tag">SALE</span>
+                                    </div>   
+                                    <div class="slider_content text-center item">
+                                        <div class="slider_img">
+                                            <img src="src/images/beauty_slider2.png" class="img-fluid vertical_middle m-auto" alt=""/>
+                                        </div>
+                                        <div class="slider_text">
+                                            <h5 class="title_h5">Gel Eyeliner with Brush</h5>
+                                            <p><span>$150.95</span>$120.95</p>
+                                        </div>
+                                    </div>                                             
+                                </div>
+                            </div>
+                            <h3 class="tab_drawer_heading d-md-none" rel="tab3"><span> Best Seller </span></h3>
+                            <div id="tab3" class="tab_content">
+                                <div class="owl-carousel wow fadeIn beauty_trending_slider">   
+                                    <div class="slider_content text-center item">
+                                        <div class="slider_img">
+                                            <img src="src/images/beauty_slider4.png" class="img-fluid vertical_middle m-auto" alt=""/>
+                                        </div>
+                                        <div class="slider_text">
+                                            <h5 class="title_h5">Compact Bronzing Powder</h5>
+                                            <p><span>$250.00</span>$220.00</p>
+                                        </div>
+                                    </div>       
+                                    <div class="slider_content text-center item">
+                                        <div class="slider_img">
+                                            <img src="src/images/beauty_slider2.png" class="img-fluid vertical_middle m-auto" alt=""/>
+                                        </div>
+                                        <div class="slider_text">
+                                            <h5 class="title_h5">Gel Eyeliner with Brush</h5>
+                                            <p><span>$150.95</span>$120.95</p>
+                                        </div>
+                                    </div>  
+                                    <div class="slider_content text-center item">
+                                        <div class="slider_img">
+                                            <img src="src/images/beauty_slider3.png" class="img-fluid vertical_middle m-auto" alt=""/>
+                                        </div>
+                                        <div class="slider_text">
+                                            <h5 class="title_h5">Labial Líquido Velvet Matte Lipstick</h5>
+                                            <p>$170.00</p>
+                                        </div>
+                                        <span class="sale_tag">SALE</span>
+                                    </div>                        
+                                    <div class="slider_content text-center item">
+                                        <div class="slider_img">
+                                            <img src="src/images/beauty_slider4.png" class="img-fluid vertical_middle m-auto" alt=""/>
+                                        </div>
+                                        <div class="slider_text">
+                                            <h5 class="title_h5">Compact Bronzing Powder</h5>
+                                            <p><span>$250.00</span>$220.00</p>
+                                        </div>
+                                    </div>    
+                                    <div class="slider_content text-center item">
+                                        <div class="slider_img">
+                                            <img src="src/images/beauty_slider1.png" class="img-fluid vertical_middle m-auto" alt=""/>
+                                        </div>
+                                        <div class="slider_text">
+                                            <h5 class="title_h5">Velvet Finish Light Compact Powder</h5>
+                                            <p>$170.00</p>
+                                        </div>
+                                        <span class="sale_tag">SALE</span>
+                                    </div>   
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 p-0 d-flex align-items-center custom_slider_heading order-xl-2 order-1">
+                            <div class="section_title">
+                                <h3 class="title_h3  text-capitalize home_title_h3">Trending Products</h3>
+                                <ul class="tabs d-none d-md-inline-block w-100 position-relative">
+                                    <li class="active" rel="tab1">Featured</li>
+                                    <li rel="tab2">Latest</li>
+                                    <li rel="tab3">Best Seller</li>
+                                </ul>
+                            </div>                            
+                        </div>
+                        <div class="col-xl-3 p-0 custom_image_section d-xl-block d-none order-xl-3">
+                            <div class="compact_img">
+                                <img src="src/images/beauty_compact.png" class="img-fluid w-100" alt=""/>
+                            </div>                                
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- END Trending Product Section -->
+            <!--START Ship_quality Section--> 
+            <div class="beauty_ship_quality wow fadeIn">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-5 col-md-6 col_style">
+                            <div class='row'>
+                                <div class="shipping_image col-md-2 mt-auto mb-auto pr-md-0">
+                                    <img src="src/images/beauty_ship.png" class="img-fluid" alt="">
+                                </div>                    
+                                <div class="shipping_text col-md-10">
+                                    <h2 class="mb-0">Free Shipping</h2>
+                                    <p>Orders Over $99 Dollars Free Shipping</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-5 col-md-6 col_style">
+                            <div class="row">
+                                <div class="shipping_image col-md-2 mt-auto mb-auto pr-md-0 text-md-right">
+                                    <img src="src/images/beauty_quality.png" class="img-fluid" alt="">
+                                </div>                    
+                                <div class="shipping_text col-md-10">
+                                    <h2 class="mb-0">Guaranteed Quality</h2>
+                                    <p>All Our Products are Animal Cruelty Free</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--END Ship_quality Section--> 
+            <!-- START shop_now Section -->
+            <section class="beauty_shopnow_section">
+                <div class="container-fluid">
+                    <div class="row flex-container">
+                        <div class="col-xl-6 col-md-7 d-flex align-items-center order-md-1 order-1 p-0">
+                            <div class="product_image">
+                                <img class="img-fluid" src="src/images/beauty_buynow_bg.png" alt="nail_polish"/>
+                            </div>   
+                        </div>
+                        <div class="col-xl-6 col-md-5 order-md-2 order-1">
+                            <div class="product_text d-md-inline-block">
+                                <div class="product_details">
+                                    <span class="sale text-uppercase">SALE</span>
+                                    <h3 class="title_h3">Extended Shine Long Lasting Nail Polish</h3>
+                                    <p class="price"><span>$170.00</span> $150.95</p>
+                                    <p class="pera">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem laudantium totam rem aperiam eaque ipsa quae
+                                        ab illo inventore veritatis et quasi architecto beatae vitae dicta sunteplicabo nemo enim ipsam voluptatem quia.</p>
+                                </div>                                
+                                <ul id="beauty_landing_countdowntimer" class="product-date "></ul>   
+                                <ul class="color_picker">
+                                    <li class="one">
+                                        <input type="checkbox" value="">
+                                        <label for="one" style="background:#a12d38 ;">one</label>
+                                    </li>
+                                    <li class="two">
+                                        <input type="checkbox" value="">
+                                        <label for="two" style="background:#ee4e4e ;">two</label>
+                                    </li>
+                                    <li class="three">
+                                        <input type="checkbox" value="">
+                                        <label for="three" style="background: #f3799e;">three</label>
+                                    </li>
+                                    <li class="four">
+                                        <input type="checkbox" value="">
+                                        <label for="four" style="background: #dc1d63;">four</label>
+                                    </li>
+                                    <li class="five">
+                                        <input type="checkbox" value="">
+                                        <label for="five" style="background: #d71e2c;">five</label>
+                                    </li>
+                                    <li class="six">
+                                        <input type="checkbox" value="">
+                                        <label for="six" style="background: #f03e62;">six</label>
+                                    </li>
+                                </ul>                
+                                <div class="td" data-title="Quantity">
+                                    <div class="form-group quantity_box">
+                                        <div class="qty_number"><input type="text" value="1" ></div>
+                                    </div>
+                                </div>
+                                <div class="add_to_cart">
+                                    <div class="add_bttn"><a href="cart.html">ADD TO CART</a></div>
+                                    <div class="add_bttn"><a href="wishlist.html"><i class="flaticon-heart" aria-hidden="true"></i></a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                    
+                </div>
+            </section>
+            <!-- END shop_now Section --> 
+            <!-- START Summer Collection Section -->
+            <section class="padding-top-60 wow fadeIn beauty_summer_collection">
+                <div class="container">
+                    <div class="wow fadeInUp">
+                        <div class="row">
+                            <div class="col-md-5 beauty_summer_content_main text-md-left text-center">
+                                <div class="beauty_summer_content d-block w-100">
+                                    <h2 class="title_h2 text-white">New Launches</h2>
+                                    <p class="text-uppercase text-white">The Latest New Brands</p>
+                                    <span class="text-uppercase text-white">Sale up to 15%</span>
+                                    <p class="text-uppercase text-white">in the first week.</p>
+                                    <a href="product_list_with_sidebar.html" class="text-uppercase border-bottom-btn d-inline-block">SHOP NOW</a>
+                                </div>
+                            </div>
+                            <div class="col-md-7">
+                                <img src="src/images/beauty_launches_img.png" alt="" class="img-fluid"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- END Summer Collection Section -->
+            <!-- START Blog Section -->
+            <div class="beauty_blog_section wow fadeIn mt-100">
+                <div class="b_container container"> 
+                    <div class="row m-0">
+                        <div class="col-xl-3 col-lg-5 col-md-6 pr-md-0">
+                            <div class="beauty_title">
+                                <h2 class="title_h2">Latest Blog</h2>
+                                <p>Totam rem aperiam eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunteplicabo nemo enim ipsam voluptatem quia.</p>
+                            </div>
+                        </div>
+                        <div class="col-xl-9 col-lg-7 col-md-6 pr-md-0">
+                            <div id="beauty_blog_slider" class="owl-carousel beauty_blog_slider_content">          
+                                <div class="item">
+                                    <div class="brand_logo_img text-center position-relative">
+                                        <div class="brand_img_top_layer position-relative d-inline-block">
+                                            <img src="src/images/beauty_blog_1.png" alt="brand_logo" class="img-fluid"/>
+                                        </div>
+                                        <div class="brand_logo_content d-inline-block position-absolute w-100 text-left">
+                                            <span class="text-white text-capitalize">Apr 22, 2018</span>
+                                            <a href="blog_list_detail.html">
+                                                <p class="text-white">Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="brand_logo_img text-center position-relative">
+                                        <div class="brand_img_top_layer position-relative d-inline-block">
+                                            <img src="src/images/beauty_blog_2.png" alt="brand_logo" class="img-fluid"/>
+                                        </div>
+                                        <div class="brand_logo_content d-inline-block position-absolute w-100 text-left">
+                                            <span class="text-white text-capitalize">Apr 25, 2018</span>
+                                            <a href="blog_list_detail.html">
+                                                <p class="text-white">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut</p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="brand_logo_img text-center position-relative">
+                                        <div class="brand_img_top_layer position-relative d-inline-block">
+                                            <img src="src/images/beauty_blog_3.png" alt="brand_logo" class="img-fluid"/>
+                                        </div>
+                                        <div class="brand_logo_content d-inline-block position-absolute w-100 text-left">
+                                            <span class="text-white text-capitalize">Apr 28, 2018</span>
+                                            <a href="blog_list_detail.html">
+                                                <p class="text-white">Ut enim ad minima veniam quis nostrum exercitationem</p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="brand_logo_img text-center position-relative">
+                                        <div class="brand_img_top_layer position-relative d-inline-block">
+                                            <img src="src/images/beauty_blog_1.png" alt="brand_logo" class="img-fluid"/>
+                                        </div>
+                                        <div class="brand_logo_content d-inline-block position-absolute w-100 text-left">
+                                            <span class="text-white text-capitalize">Apr 28, 2018</span>
+                                            <a href="blog_list_detail.html">
+                                                <p class="text-white">Ut enim ad minima veniam quis nostrum exercitationem</p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- END Blog Section -->
+            <!-- START Brand Logos Section -->
+            <div class="brand_logo_section beauty_brand_logo_section wow fadeIn mt-100 mb-100">
+                <div class="container">                        
+                    <div id="beauty_brand_slider" class="owl-carousel">          
+                        <div class="item">
+                            <div class="brand_logo_img text-center position-relative">
+                                <img src="src/images/beauty_partner_1.png" alt="brand_logo" class="img-fluid vertical_middle"/>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="brand_logo_img text-center position-relative">
+                                <img src="src/images/beauty_partner_2.png" alt="brand_logo" class="img-fluid vertical_middle"/>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="brand_logo_img text-center position-relative">
+                                <img src="src/images/beauty_partner_3.png" alt="brand_logo" class="img-fluid vertical_middle"/>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="brand_logo_img text-center position-relative">
+                                <img src="src/images/beauty_partner_4.png" alt="brand_logo" class="img-fluid vertical_middle"/>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="brand_logo_img text-center position-relative">
+                                <img src="src/images/beauty_partner_5.png" alt="brand_logo" class="img-fluid vertical_middle"/>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="brand_logo_img text-center position-relative">
+                                <img src="src/images/beauty_partner_6.png" alt="brand_logo" class="img-fluid vertical_middle"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- END Brand Logos Section -->
+        </div>
+        <!-- START Footer -->
+        <footer class="wow fadeIn animated beauty_footer">
+            <div class="container">
+                <!-- Start Footer Top-->
+                <div class="footer_top">
+                    <div class="row">
+                        <div class="col-lg-4 col-sm-6  wow fadeInUp ">
+                            <div class="border-left column">
+                                <a href="beauty.html"><img src="src/images/beauty_logo.png" alt="logo" class="img-fluid footer_logo"/></a>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit sed quia consequuntur magni dolores eos qui ratione voluptatem...</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-sm-6  wow fadeInUp">
+                            <h5 class="title_h5 text-capitalize">Shop</h5>
+                            <ul>
+                                <li><a href="javascript:void(0);">Customer Service</a></li>
+                                <li><a href="my_account.html">My Account</a></li>
+                                <li><a href="contactus.html">Contact Us</a></li>
+                                <li><a href="faq.html">FAQs</a></li>
+                                <li><a href="shipping_information.html">Shipping Information</a></li>
+                                <li><a href="returns_exchanges.html">Returns & Exchanges</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-2 col-sm-6  wow fadeInUp">
+                            <h5 class="title_h5 text-capitalize">Collections</h5>
+                            <ul>
+                                <li><a href="#">Cheeks Bronzer</a></li>
+                                <li><a href="#">Blush Palette</a></li>
+                                <li><a href="#">Eye Shadow</a></li>
+                                <li><a href="#">Mascara</a></li>
+                                <li><a href="#">Lipstick</a></li>
+                                <li><a href="#">Lip Gloss</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-4 col-sm-6  wow fadeInUp">                        
+                            <h5 class="title_h5 text-capitalize">Follow us on Instagram</h5>
+                            <div class="col-12 instagram_section p-0">
+                                <div class="owl-carousel owl-theme instagram_slider w-auto row beauty_instafeed" id="beauty_instafeed">
+                                </div>
+                            </div>                         
+                        </div>
+                    </div>
+                </div>
+                <!-- End Footer Top-->
+                <!-- Start Footer Bottom -->
+                <div class="footer_bottom border-top">
+                    <div class="row flex-row-reverse">
+                        <div class="col-md-6 text-md-right text-center">
+                            <ul class="footer_social_icons">
+                                <li><a href="javascript:void(0);"><i class="flaticon-facebook"></i></a></li>
+                                <li><a href="javascript:void(0);"><i class="flaticon-pinterest"></i></a></li>
+                                <li><a href="javascript:void(0);"><i class="flaticon-instagram-logo"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6 text-md-left text-center">  2018 © Earthyellow All rights reserved.</div>
+                    </div>
+                </div>
+                <!-- End Footer Bottom -->
+            </div>           
+        </footer>
+        <!-- END Footer -->
+        <!-- Newsletter pop_up Section -->
+        <div class="modal" id="newsletter">
+            <div class="newsletter_popup modal-content">
+                <div class="news_form">
+                    <!-- Start Header Logo-->
+                    <div class="header_logo">
+                        <a href="furniture.html"><img src="src/images/beauty_logo.png" class="img-fluid" alt="logo" /></a>
+                    </div>
+                    <!-- End Header Logo-->
+                    <h3 class="title_h3">Sign UP & <span>Get 20% </span>off</h3>
+                    <h4 class="title_h4">Your First Order</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do ut labore et dolore magna aliqua.</p>
+                    <a class="new_close"><i class="flaticon-close"></i></a>
+                    <form>
+                        <div class="form-group text-left">
+                            <label for="email" class="text-left title_h5">Enter Your Email</label>
+                            <input type="email" class="form-control" id="email" name="email">
+                        </div>
+                        <button type="submit" class="btn background-btn text-uppercase">
+                            Sign up <i class="flaticon-arrows-4"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- Newsletter pop_up Section End -->
+        <!-- jQuery js -->
+        <script src="src/js/jquery.min.js"></script>
+        <!-- Bootstrap 4 dependency popper js  -->
+        <script src="src/js/popper.min.js"></script>
+        <!-- Bootstrap 4 js -->
+        <script src="src/js/bootstrap.min.js"></script>
+        <!-- Bootstrap 4 select js -->
+        <script src="src/js/bootstrap-select.min.js"></script>
+        <!-- OWL Carousel js -->
+        <script src="src/js/owl.carousel.min.js"></script>
+        <!-- jquery-ui js -->
+        <script src="src/js/jquery-ui.min.js"></script>
+        <!-- mCustomScrollbar js -->
+        <script src="src/js/jquery.mCustomScrollbar.min.js"></script>
+        <!-- Cookie js -->
+        <script src="src/js/cookie.js"></script> 
+        <!-- Slider Revolution js -->
+        <script src="src/revolution/js/jquery.themepunch.tools.min.js"></script>
+        <script src="src/revolution/js/jquery.themepunch.revolution.min.js"></script>
+        <script src="src/revolution/js/extensions/revolution.addon.particles.min.js" type="text/javascript"></script>
+        <script src="src/revolution/js/extensions/revolution.extension.parallax.min.js" type="text/javascript"></script>
+        <script src="src/revolution/js/extensions/revolution.extension.slideanims.min.js" type="text/javascript"></script>
+        <script src="src/revolution/js/extensions/revolution.extension.layeranimation.min.js" type="text/javascript"></script>
+        <!-- Imagesloaded js -->
+        <script src="src/js/imagesloaded.pkgd.min.js"></script>
+        <!-- Wow js -->
+        <script src="src/js/wow.min.js"></script>              
+        <!-- Page-scroll js -->
+        <script src="src/js/page-scroll.js"></script>
+        <!-- Instafeed js -->
+        <script src="src/js/instafeed.min.js"></script>
+        <!-- CountdownTimer js -->
+        <script src="src/js/jquery.countdownTimer.js" ></script>
+        <script src="src/js/kinetic.js" ></script>
+        <script src="src/js/jquery.final-countdown.js" ></script>
+        <!-- rotate js -->
+        <script src="src/js/rotate.js" ></script>
+        <!-- slick js -->
+        <script src="src/js/slick.min.js" ></script>
+        <!-- Comparison js -->
+        <script src="src/js/comparison.js"></script>
+        <!-- Earthyellow js -->
+        <script src="src/js/custom.js"></script>
+    </body>
+</html>
